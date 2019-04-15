@@ -59,12 +59,13 @@ while(timed<=3&&ligth[0]==1){ // if<=3 green>>>>yellow
                 alert=0;
                     }
                 }
-    }
+    
         
-           while(timed>10){
+           
+    while(timed>10){
                 if (out==0){
                 timeout.detach();
-                alarm.detach();
+                alarm.detach();  
                 clear_all();
                 out=1;
                 alert=0;
